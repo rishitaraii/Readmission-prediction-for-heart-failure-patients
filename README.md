@@ -56,9 +56,4 @@ To better understand the dataset, we generated the following visualizations:
 ![Sample Prediction](Images/sample_prediction.png)
 
 
-## Next Steps
-1. **Model Development**: Train and evaluate different ML models (Logistic Regression, Random Forest, XGBoost, etc.).
-2. **Hyperparameter Tuning**: Optimize models using Grid Search & Random Search.
-3. **Model Evaluation**: Use metrics like **Accuracy, Precision, Recall, F1-Score, AUC-ROC Curve**.
-4. **Deployment**: Build a **Streamlit-based Admin Dashboard** for hospitals to monitor predictions.
 
