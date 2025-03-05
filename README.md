@@ -17,10 +17,9 @@ Preprocessing is a crucial step in machine learning, ensuring data quality and p
 ### **1. Data Loading & Exploration**
 - Loaded the required MIMIC-III tables into a pandas DataFrame.
 
-  ## Age At Admission
+  
 ![Age At Admission](images/Age_at_admission.jpg)
 
- ## GENDER DISTRIBUTION
 ![Gender Distribution](Images/Gender_Distriution.jpg)
  
 
