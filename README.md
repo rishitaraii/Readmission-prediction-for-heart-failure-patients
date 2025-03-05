@@ -79,7 +79,7 @@ Heart failure is a very common ailment leading to fatalities if not attended to 
 
 ## How to Run the Application
 
-### **1. Set Up the Environment**
+### ** Set Up the Environment**
 - Ensure you have Python 3.8 or higher installed.
 -Run the following command to create a virtual environment:
 
@@ -104,10 +104,9 @@ Make sure you have requirements.txt in your project folder, then run:
 
 ```bash
 pip install -r requirements.txt
-4️⃣ Run the Streamlit App
+```
+Run the Streamlit App
 Once everything is set up, launch the app using:
-
-bash
-Copy
-Edit
+```bash
 streamlit run app.py
+```
