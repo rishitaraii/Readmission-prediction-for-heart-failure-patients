@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load the trained model
-model_path = "model.pkl"
+model_path = "final.pkl"
 
 try:
     with open(model_path, "rb") as f:
