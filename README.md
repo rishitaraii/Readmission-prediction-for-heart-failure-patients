@@ -16,8 +16,10 @@ Preprocessing is a crucial step in machine learning, ensuring data quality and p
 
 ### **1. Data Loading & Exploration**
 - Loaded the required MIMIC-III tables into a pandas DataFrame.
-  
-  
+
+  ## Age At Admission
+![Age At Admission](images/Age_at_admission.jpg)
+ 
 
 ### **2. Handling Missing Values**
 - Identified missing values in important features.
@@ -45,10 +47,11 @@ To better understand the dataset, we generated the following visualizations:
 - **Missing Value Heatmap**
 - **Boxplots for Outlier Detection**
 
-> 📌 *Images are saved in the `images/` directory.* Example:
-> ```md
-> ![Data Distribution](images/data_distribution.png)
-> ```
+
+
+## Sample Prediction Output
+![Sample Prediction](images/sample_prediction.png)
+
 
 ## Next Steps
 1. **Model Development**: Train and evaluate different ML models (Logistic Regression, Random Forest, XGBoost, etc.).
