@@ -75,3 +75,12 @@ Heart failure is a very common ailment leading to fatalities if not attended to 
 6. **ICD-9 Diagnosis codes for heart failure**:
    ('39891', '40201', '40211', '40291', '40401', '40403', '40411', '40413', '40491', '40493', '4280', '4281', '42820', '42821', '42822', '42823', '42830', '42831', '42832', '42833', '42840', '42841', '42842', '42843', '4289')
 
+---
+
+## How to Run the Application
+
+### **1. Set Up the Environment**
+- Ensure you have Python 3.8 or higher installed.
+- Create a virtual environment (optional but recommended):
+  ```bash
+  python -m venv venv
