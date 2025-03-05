@@ -19,6 +19,9 @@ Preprocessing is a crucial step in machine learning, ensuring data quality and p
 
   ## Age At Admission
 ![Age At Admission](images/Age_at_admission.jpg)
+
+ ## GENDER DISTRIBUTION
+![Gender Distribution](Images/Gender_Distriution.jpg)
  
 
 ### **2. Handling Missing Values**
