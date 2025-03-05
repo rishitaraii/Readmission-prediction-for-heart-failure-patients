@@ -57,9 +57,8 @@ We used **XGBoost** as the primary model for predicting readmission. The model w
 - Performance evaluation using **Accuracy, Precision, Recall, F1-score, and ROC-AUC**
 
 ## Sample Prediction Output
-(Needs to be added in the notebook, including sample patient data and prediction results)
 
-![Sample Prediction](Images/sample_prediction.png)
+![Sample Prediction](Images/sample_prediction.jpg)
 
 ## Problem Statement
 Heart failure is a very common ailment leading to fatalities if not attended to promptly. Even for the patients who get proper treatment, hospital readmissions result in a significant risk of death and a financial burden for patients, their families, as well as the already overburdened healthcare systems. Predicting at-risk patients for readmission allows for targeted interventions that reduce morbidity and mortality.
