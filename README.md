@@ -50,7 +50,7 @@ To better understand the dataset, we generated the following visualizations:
 
 
 ## Sample Prediction Output
-![Sample Prediction](images/sample_prediction.png)
+![Sample Prediction](Images/sample_prediction.png)
 
 
 ## Next Steps
