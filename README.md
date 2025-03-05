@@ -81,6 +81,33 @@ Heart failure is a very common ailment leading to fatalities if not attended to 
 
 ### **1. Set Up the Environment**
 - Ensure you have Python 3.8 or higher installed.
-- Create a virtual environment (optional but recommended):
-  ```bash
-  python -m venv venv
+-Run the following command to create a virtual environment:
+
+```bash
+python -m venv venv
+```
+Activate the Virtual Environment
+-On macOS / Linux:
+```bash
+source venv/bin/activate
+```
+On Windows (Command Prompt):
+```bash
+venv\Scripts\activate
+```
+On Windows (PowerShell):
+```bash
+venv\Scripts\Activate.ps1
+```
+Install Dependencies
+Make sure you have requirements.txt in your project folder, then run:
+
+```bash
+pip install -r requirements.txt
+4️⃣ Run the Streamlit App
+Once everything is set up, launch the app using:
+
+bash
+Copy
+Edit
+streamlit run app.py
