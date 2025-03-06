@@ -26,10 +26,6 @@ Preprocessing is a crucial step in machine learning, ensuring data quality and p
 
 ### **3. Feature Engineering**
 - Selected **7 dominant features** for extraction based on importance.
-- Created new features such as:
-  - **Length of hospital stay**
-  - **Number of past admissions**
-  - **Comorbidity index**
 - Encoded categorical variables using **One-Hot Encoding** and **Label Encoding**.
 - Scaled numerical features using **StandardScaler**.
 
