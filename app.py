@@ -1,15 +1,10 @@
 import streamlit as st
 import numpy as np
 import pickle
-import os
 
 # Load the trained model
-model_path = os.path.join(os.path.dirname(__file__), r"final.pkl")
-if os.path.exists(model_path):
-    print("✅ Model file exists:", model_path)
-else:
-    print("❌ Model file not found!")
-    print("📂 Current directory contents:", os.listdir("."))
+model_path = r"C:\Users\rishita\Desktop\SIH\Readmission-prediction-for-heart-failure-patients\final.pkl"
+
 try:
     with open(model_path, "rb") as f:
         model = pickle.load(f)
