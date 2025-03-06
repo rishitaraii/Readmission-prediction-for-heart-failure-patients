@@ -5,7 +5,11 @@ import os
 
 # Load the trained model
 model_path = os.path.join(os.path.dirname(__file__), r"final.pkl")
-
+if os.path.exists(model_path):
+    print("✅ Model file exists:", model_path)
+else:
+    print("❌ Model file not found!")
+    print("📂 Current directory contents:", os.listdir("."))
 try:
     with open(model_path, "rb") as f:
         model = pickle.load(f)
