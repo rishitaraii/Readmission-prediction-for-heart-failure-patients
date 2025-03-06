@@ -1,16 +1,17 @@
 import streamlit as st
 import numpy as np
 import pickle
+import os
 
 # Load the trained model
-model_path = r"C:\Users\rishita\Desktop\SIH\Readmission-prediction-for-heart-failure-patients\final.pkl"
+model_path = os.path.join(os.path.dirname(__file__), r"final.pkl")
 
 try:
     with open(model_path, "rb") as f:
         model = pickle.load(f)
 except FileNotFoundError:
     model = None
-    st.error("🚨 Model file not found! Please upload 'model.pkl'.")
+    st.error("🚨 Model file not found!")
 
 # Custom CSS for styling
 st.markdown("""
