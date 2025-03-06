@@ -48,7 +48,7 @@ To better understand the dataset, we generated the following visualizations:
 
 ## Model Training
 We used **XGBoost** as the primary model for predicting readmission. The model was trained using:
-- Hyperparameter tuning via GridSearchCV
+- Hyperparameter tuning via Particle Swarm Optimization (PSO)
 - Feature selection based on importance scores (The 7 selected features should be explicitly listed in the notebook)
 - Performance evaluation using **Accuracy, Precision, Recall, F1-score, and ROC-AUC**
 
